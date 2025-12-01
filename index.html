@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZabahSoft - Under Construction</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="ZabahSoft (ظبه سافت) - Professional Web Development and Software Solutions. We are currently crafting a new digital experience. Contact us to build your dream project." />
+    <meta name="keywords" content="ZabahSoft, ظبه سافت, Web Development, Software Company, Website Builder, Afghanistan Tech, Under Construction, React Developers, UI/UX Design" />
+    <meta name="author" content="ZabahSoft" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ZabahSoft - Building the Future of Digital Experiences" />
+    <meta property="og:description" content="We are crafting a digital experience for the future. Contact ZabahSoft today to start your project." />
+    <meta property="og:image" content="https://drive.google.com/uc?export=view&id=1cxk3qxTBxbHpaDhLe-C-q-FAhipz3Qsn" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ZabahSoft - Under Construction" />
+    <meta name="twitter:description" content="We are crafting a digital experience for the future. Contact ZabahSoft today to start your project." />
+    <meta name="twitter:image" content="https://drive.google.com/uc?export=view&id=1cxk3qxTBxbHpaDhLe-C-q-FAhipz3Qsn" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              background: 'var(--background)',
+              foreground: 'var(--foreground)',
+              primary: '#2f81f7',
+              border: 'var(--border)',
+            },
+            fontFamily: {
+              sans: ['Inter', 'Vazirmatn', 'sans-serif'],
+              mono: ['JetBrains Mono', 'Vazirmatn', 'monospace'],
+            },
+            animation: {
+              'spin-slow': 'spin 12s linear infinite',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --background: #ffffff;
+        --foreground: #0d1117;
+        --border: #d0d7de;
+      }
+      .dark {
+        --background: #0d1117;
+        --foreground: #e6edf3;
+        --border: #30363d;
+      }
+      body {
+        background-color: var(--background);
+        color: var(--foreground);
+        overflow: hidden;
+      }
+      /* Custom Cursor Styles */
+      .cursor-dot,
+      .cursor-outline {
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        z-index: 9999;
+        pointer-events: none;
+      }
+      .cursor-dot {
+        width: 8px;
+        height: 8px;
+        background-color: #2f81f7;
+      }
+      .cursor-outline {
+        width: 40px;
+        height: 40px;
+        border: 2px solid rgba(47, 129, 247, 0.5);
+        transition: width 0.2s, height 0.2s, background-color 0.2s;
+      }
+      body:hover .cursor-outline {
+        background-color: rgba(47, 129, 247, 0.1);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.25"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
