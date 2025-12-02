@@ -2,25 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>ZabahSoft - Under Construction</title>
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=1cxk3qxTBxbHpaDhLe-C-q-FAhipz3Qsn" />
+    
     <!-- SEO Meta Tags -->
-    <meta name="description" content="ZabahSoft (ظبه سافت) - Professional Web Development and Software Solutions. We are currently crafting a new digital experience. Contact us to build your dream project." />
-    <meta name="keywords" content="ZabahSoft, ظبه سافت, Web Development, Software Company, Website Builder, Afghanistan Tech, Under Construction, React Developers, UI/UX Design" />
+    <meta name="description" content="ZabahSoft (ظبه سافت) - Professional Web Development and Software Solutions. We are currently crafting a new digital experience." />
+    <meta name="keywords" content="ZabahSoft, ظبه سافت, Web Development, Software Company, Website Builder, Afghanistan Tech, Under Construction" />
     <meta name="author" content="ZabahSoft" />
     <meta name="robots" content="index, follow" />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="ZabahSoft - Building the Future of Digital Experiences" />
-    <meta property="og:description" content="We are crafting a digital experience for the future. Contact ZabahSoft today to start your project." />
+    <meta property="og:title" content="ZabahSoft - Building the Future" />
+    <meta property="og:description" content="We are crafting a digital experience for the future. Contact ZabahSoft today." />
     <meta property="og:image" content="https://drive.google.com/uc?export=view&id=1cxk3qxTBxbHpaDhLe-C-q-FAhipz3Qsn" />
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="ZabahSoft - Under Construction" />
-    <meta name="twitter:description" content="We are crafting a digital experience for the future. Contact ZabahSoft today to start your project." />
+    <meta name="twitter:description" content="We are crafting a digital experience for the future." />
     <meta name="twitter:image" content="https://drive.google.com/uc?export=view&id=1cxk3qxTBxbHpaDhLe-C-q-FAhipz3Qsn" />
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -63,7 +66,7 @@
       body {
         background-color: var(--background);
         color: var(--foreground);
-        overflow: hidden;
+        overflow: hidden; /* No scroll as requested */
       }
       /* Custom Cursor Styles */
       .cursor-dot,
@@ -105,5 +108,7 @@
 </head>
   <body>
     <div id="root"></div>
+    <!-- Entry point for the React Application -->
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
