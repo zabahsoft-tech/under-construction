@@ -16,9 +16,21 @@ const GlitchTitle: React.FC<{ text: string; isRTL: boolean }> = ({ text, isRTL }
   const [isHovered, setIsHovered] = useState(false);
 
   // Define font stacks for English and RTL languages
+  // Using arbitrary tailwind values for specific Google Fonts imported in index.html
   const fonts = isRTL 
-    ? ['font-sans', 'font-mono', 'font-serif', 'font-[Tahoma]', 'font-[Arial]']
-    : ['font-sans', 'font-mono', 'font-serif', 'font-[Impact]', 'font-[Courier]'];
+    ? [
+        'font-[Vazirmatn]', 
+        'font-[Lalezar]', 
+        'font-sans', 
+        'font-bold'
+      ]
+    : [
+        'font-sans', 
+        'font-["Rubik_Glitch"]', 
+        'font-["Audiowide"]', 
+        'font-["Press_Start_2P"]', 
+        'font-mono'
+      ];
 
   // Initial glitch effect on mount
   useEffect(() => {
